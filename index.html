@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/jpg" href="./assets/icons/cropped-favicon-192x192.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Caleb's Bene Clone</title>
+
+    <!-- Link to my bootstrap -->
+    <link rel="stylesheet" href="./assets/Bootstrap_base/css/bootstrap.min.css">
+
+    <!-- Link to custom css file -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <!-- Link to bootstrap icons -->
+    <link rel="stylesheet" href="./assets/icons/bootstrap-icons/font/bootstrap-icons.min.css">
+
+    <!-- link to font awesome icons -->
+    <link rel="stylesheet" href="./assets/icons/font/css/all.css">
+
+    <!-- link to sofia font -->
+    <link rel="stylesheet" href="./assets/fonts/sofia-pro-webfont/style.css">
+
+</head>
+<body>
+
+    <!-- Header start -->
+    <nav class="navbar navbar-expand-lg site-header" >
+        <div class="container h-100" id="header-container">
+            <a class="navbar-brand page-brand"href="#">
+                <img src="./assets/icons/long-logo.png" class="img-fluid w-100" alt="Bene Venite Logo" id="logo-img">
+            </a>
+
+            <button class="navbar-toggler toggle-btn flex-shrink-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item nav-link">
+                            <a class=" link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item nav-link">
+                            <a class=" link" href="/shop">Shop</a>
+                        </li> 
+                        <li class="nav-item nav-link">
+                            <a class=" link" href="/blog">Blog</a>
+                        </li>
+                        <li class="nav-item nav-link">
+                            <a class=" link" href="/contact">Contact</a>
+                        </li>   
+                    </ul>
+
+                    <div class="header-icon col-3 d-flex align-items-center justify-content-center gap-3">
+                        <ul class="nav hidden-xs hidden-sm hidden-md d-flex gap-3">
+                            <li class="menu-item">
+                                <a href="#">
+                                    <i class="fas fa-search nav-icons"></i>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">
+                                    <i class="far fa-user nav-icons"></i>  
+                                </a>
+                            </li>
+                            </li><li class="menu-item">
+                                <a href="#" class="cart-link">
+                                    <i class="fa fa-cart-shopping nav-icons"></i>
+                                    <span id="counter">1</span>
+                                </a>    
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </nav> <!-- Header end -->
+
+    <!-- Hero slider start -->
+
+    <section class="hero-slider p-0">
+        <div class="slider-container">
+
+            <div class="image-section h-100 w-100">
+                <div class="container d-flex h-100 w-100">
+                    <div class="row text-area">
+                        <div class="p-0 col-12 d-flex justify-content-center flex-column gap-3 text-white">
+                            <div class="arrivals">
+                                New Arrivals
+                            </div>
+                            <div class="banner w-50">
+                                <h3 class="h1 hero_title">
+                                    Moisturizes &amp; Hydrates
+                                </h3>
+                            </div>
+                            <p class="slide-desc"></p>
+                            <hr>
+                            <div class="cta">
+                                <a href="#" class="text-white">SHOP NOW</a>
+                            </div>
+                        </div>
+
+                        <div class="identifiers">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- hero slider end -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 empty" style="height: 80px;"></div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12" id="banner1-parent">
+                <div class="h-100 banner-content" id="banner1">
+                    <span class="banner-text">
+                        <h2>Personal Hygiene Kit</h2>
+                        <p class="lead">Dispatched within a week, from $95</p>
+                    </span>
+                    <a href="" class="sober-button">
+                        SHOP NOW
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-6 col-md-6 col-sm-12 text-white-75" id="banner2-parent">
+                <div class="h-100 banner-content" id="banner2">
+                    <span class="banner-text">
+                        <h2>Skincare-goals Kit</h2>
+                        <p class="lead">On Pre-Christmas delivery, From $89</p>
+                    </span>
+                    <a href="" class="sober-button">
+                        SEE MORE
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-12 empty" style="height: 110px;"></div>
+
+            <div class="d-flex col-12 align-items-center flex-column justify-content-center px-5 custom-heading1">
+                <h2 >Excellent Hygiene and Skincare on your terms</h2>
+                <p class="text-wrap text-center">
+                    At our core, we are committed to providing inclusive skincare and hygiene solutions for everyone, every gender, and all skin types. Our mission is to ensure that every individual feels confident and cared for with our diverse range of products
+                </p>
+            </div>
+            
+            <!-- First product section start -->
+            <div class="d-flex col-12 align-items-center justify-content-between mb-4 product-heading" style="height: 110px;">
+                <span>Featured Products</span>
+                <a href="#">
+                    SEE ALL
+                    <span>&rarr;</span>
+                </a>
+            </div>
+
+            <div class="col-6 col-xl-3 col-md-4 col-sm-6 d-flex flex-column mb-4 " style="column-gap: 20px;">
+                <div class="image">
+                    <img src="./assets/images/fantasia.jpg" alt="" class="h-100 w-100 img-fluid">
+                </div>
+
+                <div class="pricing d-flex flex-column gap-3 pt-3">
+                    <a href="" class="name">
+                        4.9 Desk, Single Drawer
+                    </a>
+                    <span class="price">
+                        154.00&dollar;
+                    </span>
+                </div>
+
+            </div>
+
+            <div class="col-6 col-xl-3 col-md-4 col-sm-6 d-flex flex-column mb-4 " style="column-gap: 20px;">
+
+                <div class="image">
+                    <img src="./assets/images/blush.jpg" alt="" class="h-100 w-100 img-fluid">
+                </div>
+
+                <div class="pricing d-flex flex-column gap-3 pt-3">
+                    <a href="" class="name">
+                        Baby cream
+                    </a>
+                    <span class="price">
+                        154.00&dollar;
+                    </span>
+                </div>
+
+            </div>
+            <div class="col-6 col-xl-3 col-md-4 col-sm-6 d-flex flex-column mb-4 " style="column-gap: 20px;">
+                <div class="image">
+                    <img src="./assets/images/gush.jpg" alt="" class="h-100 w-100 img-fluid">
+                </div>
+
+                <div class="pricing d-flex flex-column gap-3 pt-3">
+                    <a href="" class="name">
+                        Big Body wash
+                    </a>
+                    <span class="price">
+                        154.00&dollar;
+                    </span>
+                </div>
+
+            </div>
+            <div class="col-6 col-xl-3 col-md-4 col-sm-6 d-flex flex-column mb-4 " style="column-gap: 20px;">
+
+                <div class="image">
+                    <img src="./assets/images/9.jpg" alt="" class="h-100 w-100 img-fluid">
+                </div>
+
+                <div class="pricing d-flex flex-column gap-3 pt-3">
+                    <a href="" class="name">
+                        Body Cleanser
+                    </a>
+                    <span class="price">
+                        154.00&dollar;
+                    </span>
+                </div>
+            </div>
+            <div class="col-12 empty" style="height: 30px;"></div>
+
+            <hr id="inner-line">
+
+            <div class="col-12 empty" style="height: 30px;"></div>
+            
+            <!-- Second product section -->
+            <div class="d-flex col-12 align-items-center justify-content-between mb-4 product-heading" style="height: 110px;">
+                <span>New Arrivals</span>
+                <a href="#">
+                    SEE ALL
+                    <span>&rarr;</span>
+                </a>
+            </div>
+
+            <div class="col-6 col-xl-3 col-md-4 col-sm-6 d-flex flex-column mb-4" style="column-gap: 20px;">
+                <div class="image">
+                    <img src="./assets/images/chick.jpg" alt="" class="h-100 w-100 img-fluid">
+                </div>
+
+                <div class="pricing d-flex flex-column gap-3 pt-3">
+                    <a href="" class="name">
+                        4.9 Desk, Single Drawer
+                    </a>
+                    <span class="price">
+                        154.00&dollar;
+                    </span>
+                </div>
+
+            </div>
+
+            <div class="col-6 col-xl-3 col-md-4 col-sm-6 d-flex flex-column mb-4" style="column-gap: 20px;">
+
+                <div class="image">
+                    <img src="./assets/images/giantsef.jpg" alt="" class="h-100 w-100 img-fluid">
+                </div>
+
+                <div class="pricing d-flex flex-column gap-3 pt-3">
+                    <a href="" class="name">
+                        Baby cream
+                    </a>
+                    <span class="price">
+                        154.00&dollar;
+                    </span>
+                </div>
+
+            </div>
+            <div class="col-6 col-xl-3 col-md-4 col-sm-6 d-flex flex-column mb-4 " style="column-gap: 20px;">
+                <div class="image">
+                    <img src="./assets/images/super.webp" alt="" class="h-100 w-100 img-fluid">
+                </div>
+
+                <div class="pricing d-flex flex-column gap-3 pt-3">
+                    <a href="" class="name">
+                        Big Body wash
+                    </a>
+                    <span class="price">
+                        154.00&dollar;
+                    </span>
+                </div>
+
+            </div>
+            <div class="col-6 col-xl-3 col-md-4 col-sm-6 d-flex flex-column mb-4 " style="column-gap: 20px;">
+
+                <div class="image">
+                    <img src="./assets/images/lovely.jpg" alt="" class="h-100 w-100 img-fluid">
+                </div>
+
+                <div class="pricing d-flex flex-column gap-3 pt-3">
+                    <a href="" class="name">
+                        Body Cleanser
+                    </a>
+                    <span class="price">
+                        154.00&dollar;
+                    </span>
+                </div>
+            </div>
+            <div class="col-12 empty" style="height: 30px;"></div>
+
+            <div class="col-12 empty" style="height: 30px;"></div>
+
+            <!-- Featured collection -->
+
+            <div class="d-flex col-12 align-items-center flex-column justify-content-center px-5 custom-heading1">
+                <h2 >Featured Collections</h2>
+                <p class="text-wrap text-center">
+                    Discover our carefully curated main collections, crafted to cater to your beauty and hygiene essentials: oral hygiene, oils/soaps, and accessories.
+                </p>
+            </div>
+
+            <div class="col-12 empty" style="height: 55px;"></div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12" id="__featured1-parent">
+                <div class="h-100 banner-content" id="__featured1">
+                    <span class="banner-text text-white">
+                        <h2>Oral Care Items</h2>
+                        <p class="lead">Mouth rinse, Toothbrush, Toothpaste, oral care etc</p>
+                    </span>
+                    <a href="" class="sober-button text-white">
+                        SEE COLLECTIONS
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-4 col-sm-12 text-white-75" id="__featured2-parent">
+                <div class="h-100 banner-content" id="__featured2">
+                    <span class="banner-text">
+                        <h2>Soaps &amp; Creams</h2>
+                        <p class="lead">Body wash, moisturizers, creams, fragrances etc</p>
+                    </span>
+                    <a href="" class="sober-button">
+                        SEE COLLECTIONS
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12" id="__featured3-parent">
+                <div class="h-100 banner-content" id="__featured3">
+                    <span class="banner-text text-white">
+                        <h2>Accessories</h2>
+                        <p class="lead">Bathroom slides + wipes, cotten stripes Excellent</p>
+                    </span>
+                    <a href="" class="sober-button text-white">
+                        SEE COLLECTIONS
+                    </a>
+                </div>
+            </div>
+
+            <!-- empty space -->
+            <div class="col-12 empty" style="height: 100px;"></div>
+
+            <!-- shipping -->
+
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="elem">
+                    <div>
+                        <img src="https://ik.imagekit.io/vn49p9jmnnv7g/sober/ship_5G2tRm-g2DW.svg" alt="logo">
+                    </div>
+                    <span>Skin care for everyone</span>
+                    <span>Suitable for every skin type, ensuring beautiful results for everyone</span>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="elem">
+                    <div>
+                        <img src="https://ik.imagekit.io/vn49p9jmnnv7g/sober/money_MsAc-03ScT.svg" alt="logo">
+                    </div>
+                    <span>Money Back Guarantee</span>
+                    <span>Not satisfied? Return your purchase easily for a full refund, no questions asked.</span>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="elem">
+                    <div> <img src="https://ik.imagekit.io/vn49p9jmnnv7g/sober/technology_I_uE6rzlf.svg" alt="logo"> </div>
+                    <span>24/7 Customer Service</span>
+                    <span>Our customer service team is here to help you anytime, day or night.</span>
+                </div>
+            </div>
+
+            <div class="col-12 empty" style="height: 100px;"></div>
+
+            
+        </div>
+        <!-- row end -->
+    </div>
+    
+    <!-- Footer -->
+    <footer class="px-5">
+        <hr id="inner-line">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex align-items-center" style="height: 175px;">
+                    <div class="news_section w-100">
+                        <h3 class="" style="font-size: 0.75em; color: #23232C; font-weight: 600;">NEWSLETTER</h3>
+                        <span style="font-size: 0.85em;">Stay Updated on all that's new add noteworthy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        No access token
+    
+        <hr id="inner-line">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex py-4 footer_links_section" style="font-size: 0.8em;">
+                    <div class="copyright">
+                        Copyright &copy; 2024
+                    </div>
+                    <div class="d-flex footer_links">
+                        <a href="" class="text-body-tertiary">About Us</a>
+                        <a href="">Blog</a>
+                        <a href="" class="text-body-tertiary">FAQs</a>
+                        <a href="">Contact</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- link to bootstrap script -->
+    <script type="text/javascript" src="./assets/Bootstrap_base/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Link to custom script -->
+     <script type="text/javascript" src="./assets/JS/script.js"></script>
+</body>
+</html>
